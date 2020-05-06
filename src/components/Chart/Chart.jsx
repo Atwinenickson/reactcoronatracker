@@ -45,7 +45,7 @@ const Chart = ({ data: { confirmed, deaths, recovered }, country }) => {
               "rgba(0, 255, 0,0.5)",
               "rgba(255, 0, 0, 0.5",
             ],
-            data: [confirmed.value, recovered.value, deaths.value],
+            data: [confirmed.value, recovered.value, deaths.value ],
           },
         ],
       }}
